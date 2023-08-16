@@ -1,0 +1,3 @@
+# excluding the build files
+target/
+res
