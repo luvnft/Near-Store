@@ -1,5 +1,5 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'nft-contract.kamalstore.testnet';
-const MARKET_CONTRACT_NAME = process.env.MARKET_CONTRACT_NAME || 'market_contract.kamalstore.testnet';
+const CONTRACT_NAME = process.env.CONTRACT_NAME;
+const MARKET_CONTRACT_NAME = process.env.MARKET_CONTRACT_NAME;
 
 function getConfig(env) {
   switch(env) {
